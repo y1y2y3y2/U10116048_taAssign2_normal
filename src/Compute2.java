@@ -1,3 +1,4 @@
+//U10116048 楊明璋  實習課作業2 一般級
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
