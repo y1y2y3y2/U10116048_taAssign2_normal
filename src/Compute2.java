@@ -47,7 +47,7 @@ public class Compute2 extends JFrame {
 	 * Create the frame.
 	 */
 	public Compute2() {
-		
+		setTitle("U10116048_GeoCompute");//設定JFRAME標題
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 700);
 		contentPane = new JPanel();
@@ -258,8 +258,10 @@ public class Compute2 extends JFrame {
 		button_1.addActionListener(new clean2());
 		button_3.addActionListener(new clean3());
 	}
-	/*inner class*/
-	//1
+	/*inner class
+	 * 圓形1 圓形2 圓形3使用個別class撰寫*/
+	
+	//圓形1
 	static class compute1 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
@@ -284,7 +286,7 @@ public class Compute2 extends JFrame {
 		}
 		
 	}
-	//2
+	//圓形2
 	static class compute2 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
@@ -307,7 +309,7 @@ public class Compute2 extends JFrame {
 		}
 		
 	}
-	//3
+	//圓形3
 	static class compute3 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
@@ -331,7 +333,7 @@ public class Compute2 extends JFrame {
 		
 	}
 	//清除
-	//1
+	//圓形1
 	static class clean1 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
@@ -341,7 +343,7 @@ public class Compute2 extends JFrame {
 			p1.setText(null);
 		}
 	}
-	//2
+	//圓形2
 	static class clean2 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
@@ -351,7 +353,7 @@ public class Compute2 extends JFrame {
 			p2.setText(null);
 		}
 	}
-	//3
+	//圓形3
 	static class clean3 implements ActionListener{
 
 		public void actionPerformed(ActionEvent arg0) {
